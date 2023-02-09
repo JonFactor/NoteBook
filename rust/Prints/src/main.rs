@@ -11,5 +11,7 @@ fn main() {
     println!("{jon} is {factor}", jon=1, factor=2);
     // traits
     println!("b:{:b}, h:{:x}, o:{:o}",50,50,50);
+    // debug
+    println!("Array: {:?}", [1,2,3]);
 
 }
